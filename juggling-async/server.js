@@ -14,6 +14,7 @@ function request (index, callback) {
   });
 }
 
+// Code recommendation by @javierprovecho
 function waterfall(functionName, arguments) {
   if (arguments.length == 0) {
     // console.log("done");
